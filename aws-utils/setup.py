@@ -7,7 +7,7 @@ setup(
     author='Jeremy Keelty',
     author_email='keeltyj@protonmail.com',
     # Needed to actually package something
-    packages=['s3utils'],
+    packages=['aws-utils'],
     # Needed for dependencies
     install_requires=['pandas','s3fs','openpyxl'],
     # *strongly* suggested for sharing
