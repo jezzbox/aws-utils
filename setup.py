@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
-    name='aws-utils',
+    name='awsutils',
     url='https://github.com/jezzbox/aws-utils',
     author='Jeremy Keelty',
     author_email='keeltyj@protonmail.com',
     # Needed to actually package something
-    packages=['aws-utils'],
+    packages=['awsutils'],
     # Needed for dependencies
     install_requires=['pandas','s3fs','openpyxl'],
     # *strongly* suggested for sharing
