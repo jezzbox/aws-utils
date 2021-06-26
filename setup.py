@@ -11,7 +11,7 @@ setup(
     # Needed for dependencies
     install_requires=['pandas','s3fs','openpyxl'],
     # *strongly* suggested for sharing
-    version='0.2',
+    version='0.3',
     # The license can be anything you like
     license='MIT',
     description='some aws functions for ease of use',
