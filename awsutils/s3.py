@@ -18,7 +18,7 @@ def read_s3_file(bucket, client, key, aws_details, file_type="csv", dtype=None, 
     elif file_type == "xlsx" or file_type == "xls":
         df = pd.read_excel(file_location, engine="openpyxl", dtype=dtype,
                            storage_options=storage_options,
-                           sheet_name=0,
+                           sheet_name=sheet_name,
                            index_col=index_col,
                            )
         return df
